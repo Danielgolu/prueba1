@@ -13,6 +13,7 @@ import VistaTablaNuevo from './Componentes/VistaTablaNueva';
 import VistaIntermedia from './Componentes/seleccion-intermedia';
 import ComponenteEditable from './Componentes/ComponenteEditable';
 import Formulario from './Componentes/formulario';
+import formularioprocesos from './Componentes/formularioprocesos';
 
 class Index extends React.Component {
     render() {
@@ -31,6 +32,7 @@ class Index extends React.Component {
             <Route path="/vista/loginNyA" component={LoginFormNombreApellidos}></Route>
             <Route path="/vista/imprimir" component={ComponenteEditable}></Route>
             <Route path="/formulario/:codigo" component={Formulario}></Route>
+            <Route path="/formularioprocesos/:codigo" component={formularioprocesos}></Route>
             
           </Router>
           )

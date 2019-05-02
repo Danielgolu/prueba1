@@ -40,14 +40,14 @@ class formulariointermedioprocesos extends React.Component{
    
 enviar=(e)=>{
 
-    browserHistory.push('/formulario/'+this.props.codigo+'&'+"");
+    browserHistory.push('/formularioprocesos/'+this.props.codigo+'&'+"");
     e.preventDefault();
 }
 
 
 render() {
     return (
-      <div className="container">
+      <div  style={{width :900}} className="container">
 
       <div className="row center-xs centrar ">
           <div className="center-xs-12 margin_top ">

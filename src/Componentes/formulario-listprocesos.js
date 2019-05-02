@@ -1,6 +1,7 @@
 import React from 'react'
 import Formulario from './formulario'
 import FormularioRow from './formulario-row'
+import FormularioRowprocesos from './formulario-rowprocesos'
 import TableHeaderFormulario from './Table-Header-Formulario'
 import TableHeaderFormularioprocesos from './Table-Header-Formularioprocesos'
 import {browserHistory} from 'react-router-3';
@@ -24,7 +25,7 @@ class FormularioListprocesos extends React.Component{
                       // this.state.arreglo.push(key)
                         return (
                             
-                            <FormularioRow lista={beneficio} numero={key} codigo={this.props.codigo}/>
+                            <FormularioRowprocesos lista={beneficio} numero={key} codigo={this.props.codigo}/>
                             
                          )
                         
